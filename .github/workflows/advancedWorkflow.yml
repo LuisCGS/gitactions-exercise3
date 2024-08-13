@@ -42,6 +42,7 @@ jobs:
         run: |
           echo $WORKFLOW_VAR
           echo $JOB_VAR
+
           echo $STEP_VAR
           echo "The following is a secret: ${{ secrets.SOME_SECRET }}, of course, I cant tell you because then it wouldnt be a secret..."
           echo "The following are default environment variables:"
